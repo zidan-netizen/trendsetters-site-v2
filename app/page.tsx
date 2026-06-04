@@ -192,6 +192,73 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Category Swipe — Clothing & Footwear */}
+      <section className="py-14 sm:py-18 bg-[#0A0A0A] border-t border-[#2a2a2a]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          {/* Clothing */}
+          <div className="mb-12">
+            <div className="flex items-center justify-between mb-5">
+              <div>
+                <p className="text-[#C5A55A] text-[10px] font-bold tracking-[0.25em] uppercase mb-1">Shop Now</p>
+                <h2 className="font-display text-2xl sm:text-3xl font-bold text-white">Clothing</h2>
+              </div>
+              <a href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20clothing." target="_blank" rel="noopener noreferrer" className="text-[#C5A55A] text-[10px] font-bold tracking-[0.2em] uppercase hover:text-white transition-colors">View All</a>
+            </div>
+            <div className="flex gap-3 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory">
+              {[
+                { src: "/cat-clothing-custom.jpg", label: "New In" },
+                { src: "https://source.unsplash.com/400x500/?luxury,hoodie,streetwear", label: "Hoodies" },
+                { src: "https://source.unsplash.com/400x500/?designer,jacket,men", label: "Jackets" },
+                { src: "https://source.unsplash.com/400x500/?luxury,tshirt,fashion", label: "T-Shirts" },
+                { src: "https://source.unsplash.com/400x500/?tracksuit,designer,men", label: "Sets" },
+              ].map((item, i) => (
+                <a key={i} href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20clothing." target="_blank" rel="noopener noreferrer"
+                  className="group flex-shrink-0 w-[160px] sm:w-[200px] snap-start">
+                  <div className="relative overflow-hidden aspect-[3/4] rounded-sm border border-[#2a2a2a] mb-2">
+                    <img src={item.src} alt={item.label} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+                  </div>
+                  <p className="text-white text-[11px] font-semibold tracking-wider uppercase">{item.label}</p>
+                  <p className="text-gray-500 text-[10px] tracking-wider mt-0.5">Enquire via WhatsApp</p>
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Footwear */}
+          <div>
+            <div className="flex items-center justify-between mb-5">
+              <div>
+                <p className="text-[#C5A55A] text-[10px] font-bold tracking-[0.25em] uppercase mb-1">Shop Now</p>
+                <h2 className="font-display text-2xl sm:text-3xl font-bold text-white">Footwear</h2>
+              </div>
+              <a href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20footwear." target="_blank" rel="noopener noreferrer" className="text-[#C5A55A] text-[10px] font-bold tracking-[0.2em] uppercase hover:text-white transition-colors">View All</a>
+            </div>
+            <div className="flex gap-3 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory">
+              {[
+                { src: "/cat-footwear-custom.jpg", label: "New In" },
+                { src: "https://source.unsplash.com/400x500/?luxury,sneakers,designer", label: "Sneakers" },
+                { src: "https://source.unsplash.com/400x500/?louis+vuitton,shoes", label: "LV" },
+                { src: "https://source.unsplash.com/400x500/?dior,trainers,men", label: "Dior" },
+                { src: "https://source.unsplash.com/400x500/?gucci,loafers,luxury", label: "Loafers" },
+              ].map((item, i) => (
+                <a key={i} href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20footwear." target="_blank" rel="noopener noreferrer"
+                  className="group flex-shrink-0 w-[160px] sm:w-[200px] snap-start">
+                  <div className="relative overflow-hidden aspect-[3/4] rounded-sm border border-[#2a2a2a] mb-2">
+                    <img src={item.src} alt={item.label} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+                  </div>
+                  <p className="text-white text-[11px] font-semibold tracking-wider uppercase">{item.label}</p>
+                  <p className="text-gray-500 text-[10px] tracking-wider mt-0.5">Enquire via WhatsApp</p>
+                </a>
+              ))}
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       {/* Reviews */}
       <section className="py-12 sm:py-16 bg-[#0A0A0A] border-t border-[#2a2a2a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
