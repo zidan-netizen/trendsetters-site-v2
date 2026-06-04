@@ -193,34 +193,26 @@ export default function Home() {
       </section>
 
       {/* Category Swipe — Clothing & Footwear */}
-      <section className="py-14 sm:py-18 bg-[#0A0A0A] border-t border-[#2a2a2a]">
+      <section className="py-14 bg-[#0A0A0A] border-t border-[#2a2a2a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Clothing */}
-          <div className="mb-12">
-            <div className="flex items-center justify-between mb-5">
-              <div>
-                <p className="text-[#C5A55A] text-[10px] font-bold tracking-[0.25em] uppercase mb-1">Shop Now</p>
-                <h2 className="font-display text-2xl sm:text-3xl font-bold text-white">Clothing</h2>
-              </div>
-              <a href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20clothing." target="_blank" rel="noopener noreferrer" className="text-[#C5A55A] text-[10px] font-bold tracking-[0.2em] uppercase hover:text-white transition-colors">View All</a>
+          <div className="mb-14">
+            <div className="mb-8 text-center">
+              <p className="text-[#C5A55A] text-[10px] font-bold tracking-[0.25em] uppercase mb-2 font-display">Collection</p>
+              <h2 className="font-display text-3xl sm:text-4xl font-bold text-white">CLOTHING</h2>
             </div>
-            <div className="flex gap-3 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory">
-              {[
-                { src: "/cat-clothing-custom.jpg", label: "New In" },
-                { src: "https://source.unsplash.com/400x500/?luxury,hoodie,streetwear", label: "Hoodies" },
-                { src: "https://source.unsplash.com/400x500/?designer,jacket,men", label: "Jackets" },
-                { src: "https://source.unsplash.com/400x500/?luxury,tshirt,fashion", label: "T-Shirts" },
-                { src: "https://source.unsplash.com/400x500/?tracksuit,designer,men", label: "Sets" },
-              ].map((item, i) => (
+            <div className="flex gap-4 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory">
+              {[...Array(6)].map((_, i) => (
                 <a key={i} href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20clothing." target="_blank" rel="noopener noreferrer"
-                  className="group flex-shrink-0 w-[160px] sm:w-[200px] snap-start">
-                  <div className="relative overflow-hidden aspect-[3/4] rounded-sm border border-[#2a2a2a] mb-2">
-                    <img src={item.src} alt={item.label} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+                  className="group flex-shrink-0 w-[180px] sm:w-[220px] snap-start">
+                  <div className="relative aspect-[4/5] bg-[#111] border border-[#2a2a2a] overflow-hidden mb-3">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
+                      <span className="bg-[#C5A55A] text-[#0A0A0A] px-6 py-2.5 text-[10px] font-bold tracking-[0.18em] uppercase translate-y-4 group-hover:translate-y-0 transition-transform duration-500">Enquire Now</span>
+                    </div>
                   </div>
-                  <p className="text-white text-[11px] font-semibold tracking-wider uppercase">{item.label}</p>
-                  <p className="text-gray-500 text-[10px] tracking-wider mt-0.5">Enquire via WhatsApp</p>
+                  <div className="h-2 bg-[#2a2a2a] rounded w-2/3 mb-2" />
+                  <div className="h-2 bg-[#1a1a1a] rounded w-1/2" />
                 </a>
               ))}
             </div>
@@ -228,29 +220,21 @@ export default function Home() {
 
           {/* Footwear */}
           <div>
-            <div className="flex items-center justify-between mb-5">
-              <div>
-                <p className="text-[#C5A55A] text-[10px] font-bold tracking-[0.25em] uppercase mb-1">Shop Now</p>
-                <h2 className="font-display text-2xl sm:text-3xl font-bold text-white">Footwear</h2>
-              </div>
-              <a href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20footwear." target="_blank" rel="noopener noreferrer" className="text-[#C5A55A] text-[10px] font-bold tracking-[0.2em] uppercase hover:text-white transition-colors">View All</a>
+            <div className="mb-8 text-center">
+              <p className="text-[#C5A55A] text-[10px] font-bold tracking-[0.25em] uppercase mb-2 font-display">Collection</p>
+              <h2 className="font-display text-3xl sm:text-4xl font-bold text-white">FOOTWEAR</h2>
             </div>
-            <div className="flex gap-3 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory">
-              {[
-                { src: "/cat-footwear-custom.jpg", label: "New In" },
-                { src: "https://source.unsplash.com/400x500/?luxury,sneakers,designer", label: "Sneakers" },
-                { src: "https://source.unsplash.com/400x500/?louis+vuitton,shoes", label: "LV" },
-                { src: "https://source.unsplash.com/400x500/?dior,trainers,men", label: "Dior" },
-                { src: "https://source.unsplash.com/400x500/?gucci,loafers,luxury", label: "Loafers" },
-              ].map((item, i) => (
+            <div className="flex gap-4 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory">
+              {[...Array(6)].map((_, i) => (
                 <a key={i} href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20footwear." target="_blank" rel="noopener noreferrer"
-                  className="group flex-shrink-0 w-[160px] sm:w-[200px] snap-start">
-                  <div className="relative overflow-hidden aspect-[3/4] rounded-sm border border-[#2a2a2a] mb-2">
-                    <img src={item.src} alt={item.label} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+                  className="group flex-shrink-0 w-[180px] sm:w-[220px] snap-start">
+                  <div className="relative aspect-[4/5] bg-[#111] border border-[#2a2a2a] overflow-hidden mb-3">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
+                      <span className="bg-[#C5A55A] text-[#0A0A0A] px-6 py-2.5 text-[10px] font-bold tracking-[0.18em] uppercase translate-y-4 group-hover:translate-y-0 transition-transform duration-500">Enquire Now</span>
+                    </div>
                   </div>
-                  <p className="text-white text-[11px] font-semibold tracking-wider uppercase">{item.label}</p>
-                  <p className="text-gray-500 text-[10px] tracking-wider mt-0.5">Enquire via WhatsApp</p>
+                  <div className="h-2 bg-[#2a2a2a] rounded w-2/3 mb-2" />
+                  <div className="h-2 bg-[#1a1a1a] rounded w-1/2" />
                 </a>
               ))}
             </div>
