@@ -102,10 +102,10 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 gap-3 sm:gap-4">
             {[
-              { label: "NEW ARRIVALS", img: "/cat-new-arrivals-custom.jpg", pos: "center" },
+              { label: "GOYARD", img: "/cat-new-arrivals-custom.jpg", pos: "center" },
               { label: "CLOTHING", img: "/cat-clothing-custom.jpg", pos: "center" },
               { label: "FOOTWEAR", img: "/cat-footwear-custom.jpg", pos: "center" },
-              { label: "ACCESSORIES", img: "/cat-accessories-custom.jpg", pos: "center" },
+              { label: "HERMES", img: "/cat-hermes.png", pos: "center" },
             ].map((cat, i) => (
               <a key={i} href="#products" className="group relative aspect-square overflow-hidden block rounded-lg">
                 <img src={cat.img} alt={cat.label} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" style={{ objectPosition: cat.pos }} />
@@ -299,7 +299,7 @@ export default function Home() {
               <a href="/delivery" className="hover:text-[#C5A55A] transition-colors">Delivery</a>
             </div>
 
-            <p className="text-gray-600 text-[11px] tracking-wider uppercase">&copy; 2026 TrendSetters. All rights reserved.</p>
+            <p className="text-gray-600 text-[11px] tracking-wider uppercase">&copy; 2023 TrendSetters. All rights reserved.</p>
           </div>
         </div>
       </footer>

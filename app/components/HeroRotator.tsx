@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const heroImages = ["/hero-ts-1.jpg"];
+const heroImages = ["/hero-new.jpg"];
 
 export default function HeroRotator() {
   const [current, setCurrent] = useState(0);
