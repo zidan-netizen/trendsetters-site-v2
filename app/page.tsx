@@ -71,10 +71,10 @@ export default function Home() {
       <section className="bg-[#0A0A0A] py-4 overflow-hidden border-b border-[#2a2a2a]">
         <div className="flex items-center gap-5 sm:gap-8 px-4 sm:px-8 justify-center overflow-x-auto scrollbar-hide">
           {[
-            { label: "New Arrivals", img: "/cat-new-arrivals-custom.jpg" },
+            { label: "GOYARD", img: "/cat-new-arrivals-custom.jpg" },
             { label: "Clothing", img: "/cat-clothing-custom.jpg" },
             { label: "Footwear", img: "/cat-footwear-custom.jpg" },
-            { label: "Accessories", img: "/cat-accessories-custom.jpg" },
+            { label: "HERMES", img: "/cat-hermes.png" },
           ].map((cat, i) => (
             <a key={i} href="#products" className="flex flex-col items-center gap-2 group flex-shrink-0">
               <div className="ig-highlight-ring w-[68px] h-[68px] sm:w-[84px] sm:h-[84px] rounded-full p-[3px]">
