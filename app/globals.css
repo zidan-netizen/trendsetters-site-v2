@@ -177,7 +177,7 @@ body {
 .scrollbar-hide::-webkit-scrollbar { display: none; }
 
 .hero-img {
-  object-position: center 20%;
+  object-position: center 40%;
 }
 @media (min-width: 1024px) {
   .hero-img {
