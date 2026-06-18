@@ -175,3 +175,12 @@ body {
 
 .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 .scrollbar-hide::-webkit-scrollbar { display: none; }
+
+.hero-img {
+  object-position: center 20%;
+}
+@media (min-width: 1024px) {
+  .hero-img {
+    object-position: center 50%;
+  }
+}
