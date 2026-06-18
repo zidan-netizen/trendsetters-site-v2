@@ -89,7 +89,7 @@ export default function Home() {
       </section>
 
       {/* Hero Banner — image only */}
-      <section className="relative w-full h-[250px] sm:h-[350px] lg:h-[400px] overflow-hidden bg-[#0A0A0A]">
+      <section className="relative w-full h-[250px] sm:h-[350px] lg:h-[620px] overflow-hidden bg-[#0A0A0A]">
         <HeroRotator />
       </section>
 
