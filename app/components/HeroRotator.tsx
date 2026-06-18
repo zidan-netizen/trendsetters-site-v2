@@ -21,7 +21,7 @@ export default function HeroRotator() {
           key={i}
           src={src}
           alt={`Hero image ${i + 1}`}
-          className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 object-[center_20%] lg:object-[center_30%]"
+          className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 object-[center_20%] lg:object-[center_50%]"
           style={{ opacity: i === current ? 1 : 0 }}
         />
       ))}
