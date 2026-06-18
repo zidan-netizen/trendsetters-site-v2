@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     name: "Verified Customer",
-    text: "TrendSetters always delivers. Got the item that was sold out everywhere else. Exactly as described and in amazing condition.",
+    text: "Trend5etters always delivers. Got the item that was sold out everywhere else. Exactly as described and in amazing condition.",
     rating: 5,
   },
   {
@@ -299,7 +299,7 @@ export default function Home() {
               <a href="/delivery" className="hover:text-[#C5A55A] transition-colors">Delivery</a>
             </div>
 
-            <p className="text-gray-600 text-[11px] tracking-wider uppercase">&copy; 2023 TrendSetters. All rights reserved.</p>
+            <p className="text-gray-600 text-[11px] tracking-wider uppercase">&copy; 2023 TREND5ETTERS. All rights reserved.</p>
           </div>
         </div>
       </footer>
