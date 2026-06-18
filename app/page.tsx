@@ -204,7 +204,7 @@ export default function Home() {
             </div>
             <div className="flex gap-4 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory">
               {[...Array(6)].map((_, i) => (
-                <a key={i} href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20clothing." target="_blank" rel="noopener noreferrer"
+                <a key={i} href="https://wa.me/447904856891" target="_blank" rel="noopener noreferrer"
                   className="group flex-shrink-0 w-[180px] sm:w-[220px] snap-start">
                   <div className="relative aspect-[4/5] bg-[#111] border border-[#2a2a2a] overflow-hidden mb-3">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
@@ -226,7 +226,7 @@ export default function Home() {
             </div>
             <div className="flex gap-4 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory">
               {[...Array(6)].map((_, i) => (
-                <a key={i} href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20interested%20in%20your%20footwear." target="_blank" rel="noopener noreferrer"
+                <a key={i} href="https://wa.me/447904856891" target="_blank" rel="noopener noreferrer"
                   className="group flex-shrink-0 w-[180px] sm:w-[220px] snap-start">
                   <div className="relative aspect-[4/5] bg-[#111] border border-[#2a2a2a] overflow-hidden mb-3">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">

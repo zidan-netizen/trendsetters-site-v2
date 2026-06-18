@@ -12,7 +12,7 @@ export default function InquiryForm() {
           Tell us what you are looking for and we will source it. Any piece, any size, delivered to your door. We specialise in luxury sourcing for clothing, footwear, and accessories.
         </p>
         <a
-          href="https://wa.me/447904856891?text=Hi%20TrendSetters%2C%20I%20am%20looking%20for%20something%20specific%20and%20would%20like%20help%20sourcing%20it."
+          href="https://wa.me/447904856891"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#1ebe5d] text-white py-4 px-10 text-[11px] font-bold tracking-[0.18em] uppercase transition-colors"
